@@ -48,9 +48,12 @@ console.log('-------------------');
 let today = new Date();
 
 console.log(today);
-console.log(today.getFullYear());
-console.log(today.getMonth());
-console.log(today.getDay());
-console.log(today.getHours());
+console.log(today.getFullYear()); //년
+console.log(today.getMonth());  //월 0 ~ 11     +1      (1월~12월)
+console.log(today.getDay());    //일
+console.log(today.getHours());  //요일 0~6  (일~토)
 console.log(today.getMinutes());
 console.log(today.getSeconds());
+
+console.log(Math.abs(-10)); //절대값
+console.log(Math.round(123.6)); //반올림
